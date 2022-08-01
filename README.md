@@ -1,2 +1,2 @@
 # bird-classification
-Bird images classification Python model based on EfficientNetB3 using transfer learning. (Max accuracy: 99.9%)
+The model was based on EfficientNetB3 and used transfer learning. Images were re-dimensioned to 112 x 112 x 3 to reduce training time. This model achieved a training accuracy of 99.9%, a validation accuracy of 100%. It was trained for 10 epochs. To balance the training set each class was limited to a maximum of 150 image samples. For classes with less than 150 image samples additional samples were created using augmentation. A total of 10 classes were used to train the model.
